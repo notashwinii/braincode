@@ -2,7 +2,7 @@
 #define LOGIN_H
 
 #include <QMainWindow>
-#include"levels.h"
+#include"levelpg1.h"
 
 namespace Ui {
 class login;
@@ -23,7 +23,7 @@ private slots:
 
 private:
     Ui::login *ui;
-    levels *Levels;
+    levelpg1 *Levelpg1;
 
 };
 

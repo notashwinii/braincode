@@ -9,19 +9,31 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    levels.cpp \
+    levelpg1.cpp \
+    levelpg2.cpp \
+    levelpg3.cpp \
+    levelpg4.cpp \
+    levelpg5.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp
     login.cpp
 HEADERS += \
-    levels.h \
+    levelpg1.h \
+    levelpg2.h \
+    levelpg3.h \
+    levelpg4.h \
+    levelpg5.h \
     login.h \
     mainwindow.h
 
 
 FORMS += \
-    levels.ui \
+    levelpg1.ui \
+    levelpg2.ui \
+    levelpg3.ui \
+    levelpg4.ui \
+    levelpg5.ui \
     login.ui \
     mainwindow.ui
 

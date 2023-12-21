@@ -18,8 +18,8 @@ login::~login()
 void login::on_pushButton_login_clicked()
 {
     //modal less approach: can access first and second dialog both at same time
-    Levels = new levels(this);//this=mainwindow
-    Levels ->show();
+    Levelpg1 = new levelpg1(this);//this=mainwindow
+    Levelpg1 ->show();
 }
 
 
