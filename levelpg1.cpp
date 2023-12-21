@@ -15,6 +15,8 @@ levelpg1::~levelpg1()
 
 void levelpg1::on_levels_next_clicked()
 {
-
+    //modal less approach: can access first and second dialog both at same time
+    Levelpg2 = new levelpg2(this);
+    Levelpg2 ->show();
 }
 

@@ -2,7 +2,7 @@
 #define LEVELPG1_H
 
 #include <QMainWindow>
-
+#include"levelpg2.h"
 namespace Ui {
 class levelpg1;
 }
@@ -20,6 +20,7 @@ private slots:
 
 private:
     Ui::levelpg1 *ui;
+    levelpg2 *Levelpg2;
 };
 
 #endif // LEVELPG1_H
