@@ -28,7 +28,7 @@ void login::on_pushButton_logincancel_clicked()
     QMessageBox::StandardButton reply = QMessageBox:: question(this, "Cancel","Are you sure?",
                                                                                   QMessageBox:: Yes | QMessageBox:: No );
     if (reply == QMessageBox::Yes){
-        QApplication::quit();
+        close();
     }
 
 

@@ -40,19 +40,6 @@
    <property name="title">
     <string/>
    </property>
-   <widget class="QCommandLinkButton" name="levels_next">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>140</y>
-      <width>31</width>
-      <height>34</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_10">
     <property name="geometry">
      <rect>
@@ -207,6 +194,19 @@
     </property>
     <property name="text">
      <string>59</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
     </property>
    </widget>
   </widget>
