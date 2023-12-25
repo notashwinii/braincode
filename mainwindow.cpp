@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    QPixmap pix("D:/braincode/braincode.png");
+    QPixmap pix("D:/braincode/pictures/backgrounds/braincode.png");
     ui->label_pic->setPixmap(pix);
 
 

@@ -1,6 +1,7 @@
 #include "login.h"
 #include "ui_login.h"
 #include<QPixmap>
+#include<QMessageBox>
 login::login(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::login)
@@ -22,9 +23,14 @@ void login::on_pushButton_login_clicked()
     Levelpg1 ->show();
 }
 
-
-void login::on_pushButton_loginBack_clicked()
+void login::on_pushButton_logincancel_clicked()
 {
+    QMessageBox::StandardButton reply = QMessageBox:: question(this, "Cancel","Are you sure?",
+                                                                                  QMessageBox:: Yes | QMessageBox:: No );
+    if (reply == QMessageBox::Yes){
+        QApplication::quit();
+    }
+
 
 }
 
