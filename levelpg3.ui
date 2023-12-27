@@ -40,7 +40,7 @@
    <property name="title">
     <string/>
    </property>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="pushButton29">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -53,7 +53,7 @@
      <string>29</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="pushButton31">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -79,7 +79,7 @@
      <string>33</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="pushButton25">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -92,7 +92,7 @@
      <string>25</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="pushButton32">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -105,7 +105,7 @@
      <string>32</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="pushButton26">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -131,7 +131,7 @@
      <string>36</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_17">
+   <widget class="QPushButton" name="pushButton28">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -157,7 +157,7 @@
      <string>34</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_19">
+   <widget class="QPushButton" name="pushButton27">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -170,7 +170,7 @@
      <string>27</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_21">
+   <widget class="QPushButton" name="pushButton30">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -196,7 +196,7 @@
      <string>35</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="levelpg3Back">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -209,7 +209,7 @@
      <string>&lt;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="levelpg3Next">
     <property name="geometry">
      <rect>
       <x>460</x>

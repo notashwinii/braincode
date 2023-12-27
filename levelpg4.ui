@@ -196,7 +196,7 @@
      <string>47</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="levelpg4Back">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -209,7 +209,7 @@
      <string>&lt;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="levelpg4Next">
     <property name="geometry">
      <rect>
       <x>460</x>

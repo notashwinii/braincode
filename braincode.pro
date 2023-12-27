@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Braincode.cpp \
     level1.cpp \
     level10.cpp \
     level11.cpp \
@@ -75,10 +76,10 @@ SOURCES += \
     levelpg4.cpp \
     levelpg5.cpp \
     login.cpp \
-    main.cpp \
-    mainwindow.cpp
+    main.cpp
     login.cpp
 HEADERS += \
+    Braincode.h \
     level1.h \
     level10.h \
     level11.h \
@@ -144,11 +145,11 @@ HEADERS += \
     levelpg3.h \
     levelpg4.h \
     levelpg5.h \
-    login.h \
-    mainwindow.h
+    login.h
 
 
 FORMS += \
+    Braincode.ui \
     level1.ui \
     level10.ui \
     level11.ui \
@@ -214,8 +215,7 @@ FORMS += \
     levelpg3.ui \
     levelpg4.ui \
     levelpg5.ui \
-    login.ui \
-    mainwindow.ui
+    login.ui
 
 
 # Default rules for deployment.

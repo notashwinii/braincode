@@ -12,3 +12,16 @@ levelpg4::~levelpg4()
 {
     delete ui;
 }
+
+void levelpg4::on_levelpg4Next_clicked()
+{
+    Levelpg5 = new levelpg5(this);
+    Levelpg5 ->show();
+}
+
+
+void levelpg4::on_levelpg4Back_clicked()
+{
+
+}
+

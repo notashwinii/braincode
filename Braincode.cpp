@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "Braincode.h"
+#include "ui_Braincode.h"
 #include<QPixmap>
 
 MainWindow::MainWindow(QWidget *parent)

@@ -1,9 +1,9 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef BRAINCODE_H
+#define BRAINCODE_H
 
 #include <QMainWindow>
 #include"login.h"
-#include"mainwindow.h"
+#include"Braincode.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -25,4 +25,4 @@ private:
     Ui::MainWindow *ui;
     login *Login;
 };
-#endif // MAINWINDOW_H
+#endif // BRAINCODE_H

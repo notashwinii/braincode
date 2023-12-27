@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include"levelpg3.h"
+
 namespace Ui {
 class levelpg2;
 }
@@ -18,9 +19,14 @@ public:
 private slots:
     void on_levels_next_clicked();
 
+    void on_levelpg2Next_clicked();
+
+    void on_levelpg2Back_clicked();
+
 private:
     Ui::levelpg2 *ui;
     levelpg3 *Levelpg3;
+
 };
 
 #endif // LEVELPG2_H

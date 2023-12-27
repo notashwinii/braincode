@@ -12,3 +12,9 @@ levelpg5::~levelpg5()
 {
     delete ui;
 }
+
+void levelpg5::on_levelpg5Back_clicked()
+{
+
+}
+

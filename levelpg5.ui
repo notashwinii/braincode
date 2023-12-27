@@ -196,7 +196,7 @@
      <string>59</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="levelpg5Back">
     <property name="geometry">
      <rect>
       <x>10</x>

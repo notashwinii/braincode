@@ -15,6 +15,9 @@ public:
     explicit levelpg5(QWidget *parent = nullptr);
     ~levelpg5();
 
+private slots:
+    void on_levelpg5Back_clicked();
+
 private:
     Ui::levelpg5 *ui;
 };

@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -26,7 +29,7 @@
      <height>470</height>
     </size>
    </property>
-   <widget class="QGroupBox" name="groupBox">
+   <widget class="QGroupBox" name="groupboxBraincode">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -42,7 +45,7 @@
      </size>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string>Braincode</string>
     </property>
     <widget class="QLabel" name="label_pic">
      <property name="geometry">
