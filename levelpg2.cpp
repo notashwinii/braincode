@@ -25,3 +25,75 @@ void levelpg2::on_levelpg2Back_clicked()
 
 }
 
+
+void levelpg2::on_pushButton13_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton14_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton15_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton16_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton17_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton18_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton19_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton20_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton21_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton22_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton23_clicked()
+{
+
+}
+
+
+void levelpg2::on_pushButton24_clicked()
+{
+
+}
+
