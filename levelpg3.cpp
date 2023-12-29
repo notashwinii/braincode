@@ -23,6 +23,18 @@ levelpg3::levelpg3(QWidget *parent)
 
 levelpg3::~levelpg3()
 {
+    delete Level25;
+    delete Level26;
+    delete Level27;
+    delete Level28;
+    delete Level29;
+    delete Level30;
+    delete Level31;
+    delete Level32;
+    delete Level33;
+    delete Level34;
+    delete Level35;
+    delete Level36;
     delete ui;
 }
 

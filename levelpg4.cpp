@@ -23,7 +23,20 @@ levelpg4::levelpg4(QWidget *parent)
 
 levelpg4::~levelpg4()
 {
+    delete Level37;
+    delete Level38;
+    delete Level39;
+    delete Level40;
+    delete Level41;
+    delete Level42;
+    delete Level43;
+    delete Level44;
+    delete Level45;
+    delete Level46;
+    delete Level47;
+    delete Level48;
     delete ui;
+
 }
 
 void levelpg4::on_levelpg4Next_clicked()

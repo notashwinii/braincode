@@ -3,6 +3,19 @@
 
 #include <QWidget>
 
+#include "level49.h"
+#include "level50.h"
+#include "level51.h"
+#include "level52.h"
+#include "level53.h"
+#include "level54.h"
+#include "level55.h"
+#include "level56.h"
+#include "level57.h"
+#include "level58.h"
+#include "level59.h"
+#include "level60.h"
+
 namespace Ui {
 class levelpg5;
 }
@@ -44,6 +57,18 @@ private slots:
 
 private:
     Ui::levelpg5 *ui;
+    level49 *Level49;
+    level50 *Level50;
+    level51 *Level51;
+    level52 *Level52;
+    level53 *Level53;
+    level54 *Level54;
+    level55 *Level55;
+    level56 *Level56;
+    level57 *Level57;
+    level58 *Level58;
+    level59 *Level59;
+    level60 *Level60;
 };
 
 #endif // LEVELPG5_H
