@@ -25,19 +25,28 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>80</y>
-     <width>63</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
-   </property>
-  </widget>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+	background-color: #1c1c1c;
+}
+QRadioButton
+{
+    background-color:transparent;
+    border: none;
+    border-radius : 0px;
+}
+QPushButton
+{
+    background-color: transparent;
+    border: none;
+    border-radius : 0px;
+    color: rgb(255, 255, 255);
+	padding: 5px;
+
+}
+</string>
+  </property>
  </widget>
  <resources/>
  <connections/>
