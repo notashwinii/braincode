@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     Braincode.cpp \
+    congrats.cpp \
     level1.cpp \
     level10.cpp \
     level11.cpp \
@@ -80,6 +81,7 @@ SOURCES += \
     login.cpp
 HEADERS += \
     Braincode.h \
+    congrats.h \
     level1.h \
     level10.h \
     level11.h \
@@ -150,6 +152,7 @@ HEADERS += \
 
 FORMS += \
     Braincode.ui \
+    congrats.ui \
     level1.ui \
     level10.ui \
     level11.ui \
