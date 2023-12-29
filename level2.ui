@@ -132,17 +132,17 @@
     <string>6</string>
    </property>
   </widget>
-  <widget class="QCommandLinkButton" name="commandLinkButton">
+  <widget class="QPushButton" name="level1Next">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>220</y>
-     <width>183</width>
-     <height>41</height>
+     <x>780</x>
+     <y>235</y>
+     <width>25</width>
+     <height>25</height>
     </rect>
    </property>
    <property name="text">
-    <string/>
+    <string>&gt;</string>
    </property>
   </widget>
  </widget>
