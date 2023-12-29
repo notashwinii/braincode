@@ -2,7 +2,7 @@
 #define LEVEL1_H
 
 #include <QWidget>
-
+#include "level2.h"
 namespace Ui {
 class level1;
 }
@@ -15,8 +15,13 @@ public:
     explicit level1(QWidget *parent = nullptr);
     ~level1();
 
+private slots:
+
+
 private:
     Ui::level1 *ui;
+    level2 *Level2;
+
 };
 
 #endif // LEVEL1_H

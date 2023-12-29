@@ -199,7 +199,7 @@
    <widget class="QPushButton" name="levelpg3Back">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>140</y>
       <width>25</width>
       <height>25</height>
@@ -212,7 +212,7 @@
    <widget class="QPushButton" name="levelpg3Next">
     <property name="geometry">
      <rect>
-      <x>460</x>
+      <x>450</x>
       <y>140</y>
       <width>25</width>
       <height>25</height>
