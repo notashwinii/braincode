@@ -15,6 +15,15 @@ public:
     explicit level3(QWidget *parent = nullptr);
     ~level3();
 
+private slots:
+    void on_level3Back_clicked();
+
+    void on_level3Next_clicked();
+
+    void on_quit_clicked();
+
+    void on_how_clicked();
+
 private:
     Ui::level3 *ui;
 };

@@ -22,6 +22,8 @@ private slots:
 
     void on_quit1_clicked();
 
+    void on_quit_clicked();
+
 private:
     Ui::level1 *ui;
     level2 *Level2;

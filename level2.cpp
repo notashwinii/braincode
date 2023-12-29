@@ -11,9 +11,23 @@ level2::level2(QWidget *parent)
     QPixmap pix("D:/braincode/pictures/questions/raven_a2.jpg");
     ui->label_a2->setPixmap(pix);
 
+
+
 }
 
 level2::~level2()
 {
     delete ui;
 }
+
+void level2::on_level2Back_clicked()
+{
+
+}
+
+
+void level2::on_level2Next_clicked()
+{
+
+}
+

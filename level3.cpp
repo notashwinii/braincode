@@ -12,3 +12,27 @@ level3::~level3()
 {
     delete ui;
 }
+
+void level3::on_level3Back_clicked()
+{
+
+}
+
+
+void level3::on_level3Next_clicked()
+{
+
+}
+
+
+void level3::on_quit_clicked()
+{
+
+}
+
+
+void level3::on_how_clicked()
+{
+
+}
+
