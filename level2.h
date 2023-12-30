@@ -19,12 +19,13 @@ public:
     ~level2();
 
 private slots:
-    void on_level2Back_clicked();
+    void on_Next_clicked();
 
-    void on_level2Next_clicked();
 
 private:
     Ui::level2 *ui;
+
+    level3 *Level3;
 
 };
 

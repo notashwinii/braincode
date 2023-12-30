@@ -8,6 +8,11 @@ login::login(QWidget *parent)
 {
     ui->setupUi(this);
 
+    QSqlDatabase::addDatabase("QSQLITE");
+    mydb.setDatabaseName("D:/braincode/db/braincode.db");
+
+    if(!mydb.open()){ ui->label->setText("failed to open database"); }
+    else { ui->label->setText("conencted");}
 
 }
 
@@ -18,6 +23,8 @@ login::~login()
 
 void login::on_pushButton_login_clicked()
 {
+
+
     //modal less approach: can access first and second dialog both at same time
     Levelpg1 = new levelpg1(this);//this=mainwindow
     Levelpg1 ->show();

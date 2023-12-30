@@ -3,7 +3,7 @@
  <class>level9</class>
  <widget class="QWidget" name="level9">
   <property name="windowModality">
-   <enum>Qt::ApplicationModal</enum>
+   <enum>Qt::WindowModal</enum>
   </property>
   <property name="geometry">
    <rect>
@@ -31,22 +31,13 @@
   <property name="styleSheet">
    <string notr="true">QWidget
 {
-	background-color: #1c1c1c;
+	background-color:rgb(0, 0, 0);
 }
 QRadioButton
 {
     background-color:transparent;
     border: none;
     border-radius : 0px;
-}
-QPushButton
-{
-    background-color: transparent;
-    border: none;
-    border-radius : 0px;
-    color: rgb(255, 255, 255);
-	padding: 5px;
-
 }
 </string>
   </property>
@@ -63,7 +54,7 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QRadioButton" name="q2_4">
+  <widget class="QRadioButton" name="q9_4">
    <property name="geometry">
     <rect>
      <x>306</x>
@@ -71,6 +62,19 @@ QPushButton
      <width>16</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+	background-color:rgb(0, 0, 0);
+}
+QRadioButton
+{
+    background-color:transparent;
+    border: none;
+    border-radius : 0px;
+}
+</string>
    </property>
    <property name="text">
     <string/>
@@ -246,7 +250,7 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="level9Next">
+  <widget class="QPushButton" name="Next">
    <property name="geometry">
     <rect>
      <x>660</x>
@@ -289,48 +293,17 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="level9Back">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>225</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Utsaah</family>
-     <pointsize>50</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton
-{
-    background-color: transparent;
-    border: none;
-    border-radius : 0px;
-    color: rgb(255, 255, 255);
-	padding: 5px;
-
-}</string>
-   </property>
-   <property name="text">
-    <string>&lt;</string>
-   </property>
-  </widget>
   <zorder>label_a9</zorder>
   <zorder>q9_6</zorder>
-  <zorder>q2_4</zorder>
+  <zorder>q9_4</zorder>
   <zorder>q9_5</zorder>
   <zorder>how</zorder>
   <zorder>levelNo</zorder>
   <zorder>q9_1</zorder>
   <zorder>q9_2</zorder>
   <zorder>quit</zorder>
-  <zorder>level9Next</zorder>
+  <zorder>Next</zorder>
   <zorder>q9_3</zorder>
-  <zorder>level9Back</zorder>
  </widget>
  <resources/>
  <connections/>

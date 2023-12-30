@@ -17,9 +17,6 @@ public:
 
 private slots:
 
-
-    void on_level1Next_clicked();
-
     void on_quit1_clicked();
 
     void on_quit_clicked();

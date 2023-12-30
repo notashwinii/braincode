@@ -1,4 +1,5 @@
 #include "Braincode.h"
+#include<QSql>
 
 #include <QApplication>
 

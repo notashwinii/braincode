@@ -9,9 +9,17 @@ level5::level5(QWidget *parent)
     ui->setupUi(this);
     QPixmap pix("D:/braincode/pictures/questions/raven_a5.jpg");
     ui->label_a5->setPixmap(pix);
+
+     Level6 = new level6();
 }
 
 level5::~level5()
 {
     delete ui;
 }
+
+void level5::on_Next_clicked()
+{
+    Level6 ->show();
+}
+

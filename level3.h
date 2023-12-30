@@ -2,6 +2,7 @@
 #define LEVEL3_H
 
 #include <QWidget>
+#include "level4.h"
 
 namespace Ui {
 class level3;
@@ -16,9 +17,7 @@ public:
     ~level3();
 
 private slots:
-    void on_level3Back_clicked();
-
-    void on_level3Next_clicked();
+    void on_Next_clicked();
 
     void on_quit_clicked();
 
@@ -26,6 +25,8 @@ private slots:
 
 private:
     Ui::level3 *ui;
+
+    level4 *Level4;
 };
 
 #endif // LEVEL3_H

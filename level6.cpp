@@ -11,9 +11,16 @@ level6::level6(QWidget *parent)
     QPixmap pix("D:/braincode/pictures/questions/raven_a6.jpg");
     ui->label_a6->setPixmap(pix);
 
+     Level7 = new level7();
+
 }
 
 level6::~level6()
 {
     delete ui;
+}
+
+void level6::on_Next_clicked()
+{
+    Level7 ->show();
 }

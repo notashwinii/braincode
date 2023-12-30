@@ -2,6 +2,8 @@
 #define LEVEL6_H
 
 #include <QWidget>
+#include "level7.h"
+
 
 namespace Ui {
 class level6;
@@ -15,8 +17,13 @@ public:
     explicit level6(QWidget *parent = nullptr);
     ~level6();
 
+private slots:
+    void on_Next_clicked();
+
 private:
     Ui::level6 *ui;
+
+    level7 *Level7;
 };
 
 #endif // LEVEL6_H

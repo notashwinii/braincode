@@ -4,6 +4,10 @@
 #include <QMainWindow>
 #include"levelpg1.h"
 
+#include<QtSql>
+#include<QDebug>
+#include<QFileInfo>
+
 namespace Ui {
 class login;
 }
@@ -24,6 +28,9 @@ private slots:
 
 private:
     Ui::login *ui;
+
+    QSqlDatabase mydb;
+
     levelpg1 *Levelpg1;
 
 };
