@@ -36,15 +36,6 @@ QRadioButton
     border: none;
     border-radius : 0px;
 }
-QPushButton
-{
-    background-color: transparent;
-    border: none;
-    border-radius : 0px;
-    color: rgb(255, 255, 255);
-	padding: 5px;
-
-}
 </string>
   </property>
   <widget class="QRadioButton" name="q8_6">
@@ -243,7 +234,7 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="level8Next">
+  <widget class="QPushButton" name="Next">
    <property name="geometry">
     <rect>
      <x>660</x>
@@ -325,7 +316,7 @@ QPushButton
   <zorder>q8_1</zorder>
   <zorder>q8_2</zorder>
   <zorder>quit</zorder>
-  <zorder>level8Next</zorder>
+  <zorder>Next</zorder>
   <zorder>q8_3</zorder>
   <zorder>level8Back</zorder>
  </widget>

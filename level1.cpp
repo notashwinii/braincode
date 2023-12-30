@@ -13,9 +13,6 @@ level1::level1(QWidget *parent)
     ui->label_a1->setPixmap(pix);
 
 
-
-
-
     Level2 = new level2();
 
 }
@@ -29,7 +26,7 @@ level1::~level1()
 
 
 
-void level1::on_level1Next_clicked()
+void level1::on_Next_clicked()
 {
     Level2 ->show();
 }

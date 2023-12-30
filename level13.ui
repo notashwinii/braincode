@@ -227,7 +227,7 @@ QPushButton
     <string>x</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_a13">
+  <widget class="QLabel" name="label_b1">
    <property name="geometry">
     <rect>
      <x>245</x>
@@ -316,7 +316,7 @@ QPushButton
     <string>&lt;</string>
    </property>
   </widget>
-  <zorder>label_a13</zorder>
+  <zorder>label_b1</zorder>
   <zorder>q13_6</zorder>
   <zorder>q13_4</zorder>
   <zorder>q13_5</zorder>

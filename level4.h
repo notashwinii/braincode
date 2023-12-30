@@ -15,6 +15,9 @@ public:
     explicit level4(QWidget *parent = nullptr);
     ~level4();
 
+private slots:
+    void on_level4Back_clicked();
+
 private:
     Ui::level4 *ui;
 };

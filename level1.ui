@@ -139,7 +139,7 @@ QRadioButton
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="level1Next">
+  <widget class="QPushButton" name="Next">
    <property name="geometry">
     <rect>
      <x>640</x>
