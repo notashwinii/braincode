@@ -9,7 +9,7 @@ level10::level10(QWidget *parent)
     ui->setupUi(this);
 
 
-    QPixmap pix("D:/braincode/pictures/questions/raven_a10.jpg");
+    QPixmap pix("D:/braincode/pictures/questions/raven_d1.jpg");
     ui->label_a10->setPixmap(pix);
 
 

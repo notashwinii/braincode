@@ -9,7 +9,7 @@ level14::level14(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QPixmap pix("D:/braincode/pictures/questions/raven_b2.jpg");
+    QPixmap pix("D:/braincode/pictures/questions/raven_e6.jpg");
     ui->label_b2->setPixmap(pix);
 }
 

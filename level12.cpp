@@ -8,7 +8,7 @@ level12::level12(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QPixmap pix("D:/braincode/pictures/questions/raven_a12.jpg");
+    QPixmap pix("D:/braincode/pictures/questions/raven_d12.jpg");
     ui->label_a12->setPixmap(pix);
 }
 

@@ -9,7 +9,7 @@ level11::level11(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QPixmap pix("D:/braincode/pictures/questions/raven_a11.jpg");
+    QPixmap pix("D:/braincode/pictures/questions/raven_d6.jpg");
     ui->label_a11->setPixmap(pix);
 
     Level12 = new level12();
