@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>level13</class>
  <widget class="QWidget" name="level13">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -28,7 +31,7 @@
   <property name="styleSheet">
    <string notr="true">QWidget
 {
-	background-color: #1c1c1c;
+	background-color:rgb(0, 0, 0);
 }
 QRadioButton
 {
@@ -36,22 +39,13 @@ QRadioButton
     border: none;
     border-radius : 0px;
 }
-QPushButton
-{
-    background-color: transparent;
-    border: none;
-    border-radius : 0px;
-    color: rgb(255, 255, 255);
-	padding: 5px;
-
-}
 </string>
   </property>
   <widget class="QRadioButton" name="q13_6">
    <property name="geometry">
     <rect>
-     <x>570</x>
-     <y>345</y>
+     <x>363</x>
+     <y>352</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -63,8 +57,8 @@ QPushButton
   <widget class="QRadioButton" name="q13_4">
    <property name="geometry">
     <rect>
-     <x>306</x>
-     <y>345</y>
+     <x>560</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -76,8 +70,8 @@ QPushButton
   <widget class="QRadioButton" name="q13_5">
    <property name="geometry">
     <rect>
-     <x>437</x>
-     <y>345</y>
+     <x>270</x>
+     <y>352</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -89,7 +83,7 @@ QPushButton
   <widget class="QPushButton" name="how">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>640</x>
      <y>105</y>
      <width>50</width>
      <height>50</height>
@@ -125,7 +119,7 @@ QPushButton
    <property name="geometry">
     <rect>
      <x>150</x>
-     <y>30</y>
+     <y>35</y>
      <width>50</width>
      <height>50</height>
     </rect>
@@ -169,8 +163,8 @@ QPushButton
   <widget class="QRadioButton" name="q13_1">
    <property name="geometry">
     <rect>
-     <x>306</x>
-     <y>260</y>
+     <x>270</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -182,8 +176,8 @@ QPushButton
   <widget class="QRadioButton" name="q13_2">
    <property name="geometry">
     <rect>
-     <x>437</x>
-     <y>260</y>
+     <x>363</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -195,8 +189,8 @@ QPushButton
   <widget class="QPushButton" name="quit">
    <property name="geometry">
     <rect>
-     <x>660</x>
-     <y>30</y>
+     <x>640</x>
+     <y>35</y>
      <width>50</width>
      <height>50</height>
     </rect>
@@ -230,8 +224,8 @@ QPushButton
   <widget class="QLabel" name="label_b1">
    <property name="geometry">
     <rect>
-     <x>245</x>
-     <y>30</y>
+     <x>225</x>
+     <y>35</y>
      <width>390</width>
      <height>400</height>
     </rect>
@@ -243,10 +237,10 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="level13Next">
+  <widget class="QPushButton" name="Next">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>640</x>
      <y>225</y>
      <width>50</width>
      <height>50</height>
@@ -276,8 +270,8 @@ QPushButton
   <widget class="QRadioButton" name="q13_3">
    <property name="geometry">
     <rect>
-     <x>570</x>
-     <y>260</y>
+     <x>460</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -286,34 +280,30 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="level13Back">
+  <widget class="QRadioButton" name="q13_7">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>225</y>
-     <width>50</width>
-     <height>50</height>
+     <x>460</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
     </rect>
    </property>
-   <property name="font">
-    <font>
-     <family>Utsaah</family>
-     <pointsize>50</pointsize>
-    </font>
+   <property name="text">
+    <string/>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton
-{
-    background-color: transparent;
-    border: none;
-    border-radius : 0px;
-    color: rgb(255, 255, 255);
-	padding: 5px;
-
-}</string>
+  </widget>
+  <widget class="QRadioButton" name="q13_8">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
    </property>
    <property name="text">
-    <string>&lt;</string>
+    <string/>
    </property>
   </widget>
   <zorder>label_b1</zorder>
@@ -325,9 +315,10 @@ QPushButton
   <zorder>q13_1</zorder>
   <zorder>q13_2</zorder>
   <zorder>quit</zorder>
-  <zorder>level13Next</zorder>
+  <zorder>Next</zorder>
   <zorder>q13_3</zorder>
-  <zorder>level13Back</zorder>
+  <zorder>q13_7</zorder>
+  <zorder>q13_8</zorder>
  </widget>
  <resources/>
  <connections/>

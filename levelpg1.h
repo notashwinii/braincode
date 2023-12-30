@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include"levelpg2.h"
+
 #include "level1.h"
 #include "level2.h"
 #include "level3.h"
@@ -59,6 +60,7 @@ private slots:
 private:
     Ui::levelpg1 *ui;
     levelpg2 *Levelpg2;
+
     level1 *Level1;
     level2 *Level2;
     level3 *Level3;

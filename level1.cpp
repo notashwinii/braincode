@@ -15,6 +15,7 @@ level1::level1(QWidget *parent)
 
     Level2 = new level2();
 
+
 }
 
 level1::~level1()

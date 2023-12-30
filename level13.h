@@ -2,6 +2,7 @@
 #define LEVEL13_H
 
 #include <QWidget>
+#include"level14.h"
 
 namespace Ui {
 class level13;
@@ -16,16 +17,17 @@ public:
     ~level13();
 
 private slots:
-    void on_level13Back_clicked();
-
-    void on_level13Next_clicked();
-
     void on_how_clicked();
 
     void on_quit_clicked();
 
+
+    void on_Next_clicked();
+
 private:
     Ui::level13 *ui;
+
+     level14 *Level14;
 };
 
 #endif // LEVEL13_H

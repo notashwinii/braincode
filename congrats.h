@@ -15,6 +15,13 @@ public:
     explicit congrats(QWidget *parent = nullptr);
     ~congrats();
 
+private slots:
+    void on_playAgain_clicked();
+
+    void on_goHome_clicked();
+
+    void on_Quit_clicked();
+
 private:
     Ui::congrats *ui;
 };

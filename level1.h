@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "level2.h"
+
 namespace Ui {
 class level1;
 }
@@ -17,7 +18,7 @@ public:
 
 private slots:
 
-    void on_quit1_clicked();
+
 
     void on_quit_clicked();
 
@@ -26,6 +27,7 @@ private slots:
 private:
     Ui::level1 *ui;
     level2 *Level2;
+
 
 };
 

@@ -3,7 +3,7 @@
  <class>level10</class>
  <widget class="QWidget" name="level10">
   <property name="windowModality">
-   <enum>Qt::WindowModal</enum>
+   <enum>Qt::ApplicationModal</enum>
   </property>
   <property name="geometry">
    <rect>
@@ -44,8 +44,8 @@ QRadioButton
   <widget class="QRadioButton" name="q10_1">
    <property name="geometry">
     <rect>
-     <x>306</x>
-     <y>270</y>
+     <x>270</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -57,7 +57,7 @@ QRadioButton
   <widget class="QPushButton" name="Next">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>640</x>
      <y>235</y>
      <width>50</width>
      <height>50</height>
@@ -87,7 +87,7 @@ QRadioButton
   <widget class="QPushButton" name="how">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>640</x>
      <y>115</y>
      <width>50</width>
      <height>50</height>
@@ -122,8 +122,8 @@ QRadioButton
   <widget class="QRadioButton" name="q10_6">
    <property name="geometry">
     <rect>
-     <x>570</x>
-     <y>355</y>
+     <x>361</x>
+     <y>353</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -135,8 +135,8 @@ QRadioButton
   <widget class="QRadioButton" name="q10_3">
    <property name="geometry">
     <rect>
-     <x>570</x>
-     <y>270</y>
+     <x>460</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -148,8 +148,8 @@ QRadioButton
   <widget class="QRadioButton" name="q10_2">
    <property name="geometry">
     <rect>
-     <x>437</x>
-     <y>270</y>
+     <x>363</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -161,8 +161,8 @@ QRadioButton
   <widget class="QLabel" name="label_a10">
    <property name="geometry">
     <rect>
-     <x>245</x>
-     <y>40</y>
+     <x>225</x>
+     <y>35</y>
      <width>390</width>
      <height>400</height>
     </rect>
@@ -178,7 +178,7 @@ QRadioButton
    <property name="geometry">
     <rect>
      <x>150</x>
-     <y>40</y>
+     <y>35</y>
      <width>50</width>
      <height>50</height>
     </rect>
@@ -222,8 +222,8 @@ QRadioButton
   <widget class="QRadioButton" name="q10_4">
    <property name="geometry">
     <rect>
-     <x>306</x>
-     <y>355</y>
+     <x>560</x>
+     <y>274</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -235,8 +235,8 @@ QRadioButton
   <widget class="QRadioButton" name="q10_5">
    <property name="geometry">
     <rect>
-     <x>437</x>
-     <y>355</y>
+     <x>270</x>
+     <y>352</y>
      <width>16</width>
      <height>22</height>
     </rect>
@@ -248,8 +248,8 @@ QRadioButton
   <widget class="QPushButton" name="quit">
    <property name="geometry">
     <rect>
-     <x>660</x>
-     <y>40</y>
+     <x>640</x>
+     <y>35</y>
      <width>50</width>
      <height>50</height>
     </rect>
@@ -280,6 +280,32 @@ QRadioButton
     <string>x</string>
    </property>
   </widget>
+  <widget class="QRadioButton" name="q10_7">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q10_8">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
   <zorder>label_a10</zorder>
   <zorder>q10_1</zorder>
   <zorder>Next</zorder>
@@ -291,6 +317,8 @@ QRadioButton
   <zorder>q10_4</zorder>
   <zorder>q10_5</zorder>
   <zorder>quit</zorder>
+  <zorder>q10_7</zorder>
+  <zorder>q10_8</zorder>
  </widget>
  <resources/>
  <connections/>
