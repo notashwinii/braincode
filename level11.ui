@@ -50,7 +50,7 @@ QPushButton
 }
 </string>
   </property>
-  <widget class="QRadioButton" name="q2_1">
+  <widget class="QRadioButton" name="q11_1">
    <property name="geometry">
     <rect>
      <x>306</x>
@@ -128,7 +128,7 @@ QPushButton
     <string>?</string>
    </property>
   </widget>
-  <widget class="QRadioButton" name="q2_6">
+  <widget class="QRadioButton" name="q11_6">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -141,7 +141,7 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QRadioButton" name="q2_3">
+  <widget class="QRadioButton" name="q11_3">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -154,7 +154,7 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QRadioButton" name="q2_2">
+  <widget class="QRadioButton" name="q11_2">
    <property name="geometry">
     <rect>
      <x>437</x>
@@ -228,7 +228,7 @@ QPushButton
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QRadioButton" name="q2_4">
+  <widget class="QRadioButton" name="q11_4">
    <property name="geometry">
     <rect>
      <x>306</x>
@@ -241,7 +241,7 @@ QPushButton
     <string/>
    </property>
   </widget>
-  <widget class="QRadioButton" name="q2_5">
+  <widget class="QRadioButton" name="q11_5">
    <property name="geometry">
     <rect>
      <x>437</x>
@@ -289,6 +289,17 @@ QPushButton
     <string>x</string>
    </property>
   </widget>
+  <zorder>label_a11</zorder>
+  <zorder>q11_1</zorder>
+  <zorder>Next</zorder>
+  <zorder>how</zorder>
+  <zorder>q11_6</zorder>
+  <zorder>q11_3</zorder>
+  <zorder>q11_2</zorder>
+  <zorder>levelNo</zorder>
+  <zorder>q11_4</zorder>
+  <zorder>q11_5</zorder>
+  <zorder>quit</zorder>
  </widget>
  <resources/>
  <connections/>
