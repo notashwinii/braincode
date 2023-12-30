@@ -2,6 +2,8 @@
 #define BRAINCODE_H
 
 #include <QMainWindow>
+#include<QtSql>
+
 #include"login.h"
 #include"Braincode.h"
 QT_BEGIN_NAMESPACE
@@ -23,6 +25,9 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QSqlDatabase DB_Connection;
     login *Login;
+
+
 };
 #endif // BRAINCODE_H

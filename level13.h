@@ -15,6 +15,15 @@ public:
     explicit level13(QWidget *parent = nullptr);
     ~level13();
 
+private slots:
+    void on_level13Back_clicked();
+
+    void on_level13Next_clicked();
+
+    void on_how_clicked();
+
+    void on_quit_clicked();
+
 private:
     Ui::level13 *ui;
 };

@@ -5,11 +5,15 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
+
 {
     ui->setupUi(this);
     QPixmap pix("D:/braincode/pictures/backgrounds/braincode.png");
     ui->label_pic->setPixmap(pix);
 
+    DB_Connection= QSqlDatabase::addDatabase("QSQLITE");
+    DB_Connection.setDatabaseName("braincode.db");
+    DB_Connection.open();
 
 }
 

@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>level9</class>
  <widget class="QWidget" name="level9">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -47,6 +50,287 @@ QPushButton
 }
 </string>
   </property>
+  <widget class="QRadioButton" name="q9_6">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>345</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q2_4">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>345</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q9_5">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>345</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="how">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>105</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>40</pointsize>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color: rgb(249, 249, 249);
+    border: rgb(0, 0, 0);
+    border-radius : 3px;
+   
+	padding: 2px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="levelNo">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    background-color: rgb(238, 238, 238);
+    border: rgb(255, 255, 255);
+    border-radius : 3px;
+   
+	
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>4</number>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q9_1">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>260</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q9_2">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>260</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>30</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>40</pointsize>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color: rgb(249, 249, 249);
+    border: rgb(255, 255, 255);
+    border-radius : 2px;
+   
+	padding: 2px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_a9">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>30</y>
+     <width>390</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level9Next">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>225</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color: transparent;
+    border: none;
+    border-radius : 0px;
+    color: rgb(255, 255, 255);
+	padding: 5px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q9_3">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>260</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level9Back">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>225</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color: transparent;
+    border: none;
+    border-radius : 0px;
+    color: rgb(255, 255, 255);
+	padding: 5px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>&lt;</string>
+   </property>
+  </widget>
+  <zorder>label_a9</zorder>
+  <zorder>q9_6</zorder>
+  <zorder>q2_4</zorder>
+  <zorder>q9_5</zorder>
+  <zorder>how</zorder>
+  <zorder>levelNo</zorder>
+  <zorder>q9_1</zorder>
+  <zorder>q9_2</zorder>
+  <zorder>quit</zorder>
+  <zorder>level9Next</zorder>
+  <zorder>q9_3</zorder>
+  <zorder>level9Back</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -35,12 +35,6 @@ void level1::on_level1Next_clicked()
 }
 
 
-void level1::on_quit1_clicked()
-{
-
-}
-
-
 void level1::on_quit_clicked()
 {
 
