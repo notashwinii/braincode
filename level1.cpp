@@ -1,6 +1,11 @@
 #include "level1.h"
 #include "ui_level1.h"
+
+
+#include <QApplication>
 #include<QPixmap>
+
+
 
 level1::level1(QWidget *parent)
     : QWidget(parent)
@@ -21,20 +26,24 @@ level1::level1(QWidget *parent)
 level1::~level1()
 {
     delete Level2;
-    delete ui;
+    qApp->quit();
 }
-
 
 
 
 void level1::on_Next_clicked()
 {
+
+    if(ui->q1_4->isChecked()){}
+
+
+
     Level2 ->show();
+
+
 }
 
 
-void level1::on_quit_clicked()
-{
 
-}
+
 

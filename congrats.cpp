@@ -6,6 +6,8 @@ congrats::congrats(QWidget *parent)
     , ui(new Ui::congrats)
 {
     ui->setupUi(this);
+
+    ui->score->setText("level1::points");
 }
 
 congrats::~congrats()
@@ -27,6 +29,6 @@ void congrats::on_goHome_clicked()
 
 void congrats::on_Quit_clicked()
 {
-
+    qApp->quit();
 }
 

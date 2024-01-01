@@ -1,4 +1,4 @@
-QT       += core gui sql
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -29,7 +29,8 @@ SOURCES += \
     levelpg1.cpp \
     levelpg2.cpp \
     login.cpp \
-    main.cpp
+    main.cpp \
+    variable.cpp
     login.cpp
 HEADERS += \
     Braincode.h \
@@ -51,7 +52,8 @@ HEADERS += \
     level9.h \
     levelpg1.h \
     levelpg2.h \
-    login.h
+    login.h \
+    variable.h
 
 
 FORMS += \

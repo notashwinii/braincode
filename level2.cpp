@@ -1,5 +1,6 @@
 #include "level2.h"
 #include "ui_level2.h"
+#include "level1.h"
 
 level2::level2(QWidget *parent)
     : QWidget(parent)
@@ -23,6 +24,11 @@ level2::~level2()
 
 void level2::on_Next_clicked()
 {
+    if(ui->q2_3->isChecked())
+    {
+
+    }
+
     Level3 ->show();
 }
 

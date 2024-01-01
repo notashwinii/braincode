@@ -24,9 +24,13 @@ private slots:
 
     void on_Next_clicked();
 
+    void on_q1_4_clicked();
+
 private:
     Ui::level1 *ui;
     level2 *Level2;
+
+
 
 
 };

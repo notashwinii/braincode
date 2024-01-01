@@ -8,11 +8,6 @@ login::login(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QSqlDatabase::addDatabase("QSQLITE");
-    mydb.setDatabaseName("D:/braincode/db/braincode.db");
-
-    if(!mydb.open()){ ui->label->setText("failed to open database"); }
-    else { ui->label->setText("conencted");}
 
 }
 
